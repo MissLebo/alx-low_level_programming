@@ -28,3 +28,4 @@ int main(void)
 		printf("%d amd is 0\n", num);
 	}
 	return (0);
+}
