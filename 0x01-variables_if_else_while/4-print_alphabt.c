@@ -13,6 +13,6 @@ int main(void)
 		if (la != 'e' && la != 'q')
 			putchar(la);
 	}
-	putchae('\n');
+	putchar('\n');
 	return (0);
 }
