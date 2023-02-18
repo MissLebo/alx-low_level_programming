@@ -10,7 +10,7 @@ int main(void)
 
 	for (a = 0; a < 100; a++)
 	{
-		putchar(n + '0');
+		putchar(a + '0');
 		if (a < 99)
 		{
 			putchar(',');
