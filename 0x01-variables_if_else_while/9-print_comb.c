@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers in ascending order
+ * main - prints numers in ascending order
  * Return: 0
  */
 int main(void)
@@ -9,9 +9,9 @@ int main(void)
 	int n;
 
 	for (n = 48; n < 58; n++)
-
-	putchar(n);
-	if (n != 57)
+	{
+		putchar(n);
+		if (n != 57)
 	{
 		putchar(',');
 		putchar(' ');
