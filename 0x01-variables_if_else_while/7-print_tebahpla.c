@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - this program prints digits in base 10
+ * main - this program prints the alphabets in reverse
  * Return: 0
  */
 int main(void)
 {
-	int num;
+	char al;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	for (al = 'z'; al >= 'a'; al--)
+		putchar(al);
 
 	putchar('\n');
+
 	return (0);
 }
